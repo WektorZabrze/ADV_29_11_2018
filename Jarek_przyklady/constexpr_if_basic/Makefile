@@ -16,6 +16,9 @@ $(OBJ): $(SRC)
 $(NAMES): $(SRC)
 		$(CXX) $@.cpp -o $@
 
+pseudocode: 
+		$(CXX) -std=c++17 -fdump-tree-original $(SRC)
+
 
 .PHONY: clean
 
