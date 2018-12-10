@@ -9,7 +9,7 @@
 // W tym zadaniu nalezy skorzystac z funkcjonalnosci jezyka jak if init statement, if constexpr oraz structured binding
 // Funktor sumIfSame nie powinien mieć specjalizacji, funkcjonalnosc nalezy zaimplementować z uzyciem if constexpr
 // Funktor ma sumowac jezeli typy sa takie same, w przeciwnym przypadku wypisuje stosowny komunikat (patrz output)
-// w mainie nie powinno definiowac sie zadnych zmiennych poza miejscem, w ktorym jest komentarz "wstaw", aby to osiągnąć należy
+// w mainie nie powinno definiowac sie zadnych zmiennych poza miejscem, w ktorym jest komentarz "wstaw" oraz w ciele pętli for z użyciem structured binding, aby to osiągnąć należy
 // napisać funkcję pomocniczą, której typ zwracany pozwala na wykorzystanie structured binding
 
 
