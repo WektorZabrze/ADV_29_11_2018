@@ -1,0 +1,23 @@
+
+;; Function void fun() (null)
+;; enabled by -tree-original
+
+
+{
+  {
+    {
+      int wygenerowany = 15200;
+
+      <<cleanup_point       int wygenerowany = 15200;>>;
+    }
+  }
+}
+
+
+;; Function int main() (null)
+;; enabled by -tree-original
+
+
+return <retval> = 0;
+return <retval> = 0;
+

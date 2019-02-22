@@ -20,13 +20,6 @@ struct MyBindingStruct{
 	}
 
 	template <std::size_t N>
-	auto& get() const&{
-		if constexpr (N==0) return name;
-		if constexpr (N==1) return value;
-		if constexpr (N==2) return short_name;
-	}
-
-	template <std::size_t N>
 	auto&& get() && {
 		if constexpr (N==0) return std::forward<decltype(name)>(name);
 		if constexpr (N==1) return std::forward<decltype(value)>(value);
